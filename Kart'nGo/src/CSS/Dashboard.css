@@ -1,0 +1,102 @@
+.dashboard {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+
+}
+.signup-button {
+  margin-right: 5px; /* Adjust the margin to reduce spacing */
+}
+
+.logout-button {
+  margin-left: 5px; /* Adjust the margin to reduce spacing */
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-field {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.profile-button {
+  margin-left: 100px;
+
+}
+.item-card.selected {
+  border: 2px solid #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.item-card {
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.item-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.item-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.item-price {
+  font-size: 16px;
+  font-weight: bold;
+}
